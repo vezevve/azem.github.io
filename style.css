@@ -1,0 +1,222 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 40px;
+    color: #e3e3e3;
+    background-color: rgb(47, 47, 47);
+  }
+  
+  h1 {
+    color: rgb(227, 227, 227);
+    text-align: center;
+  }
+  
+  #girlfriend-info {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  #girlfriend-pics {
+    display: none;
+  }
+  .highlight {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff0099; /* Синий цвет, можно изменить на любой другой */
+    letter-spacing: 1px; /* Расстояние между буквами */
+  }
+  .name-info {
+    margin-bottom: 0px; /* Измените значение по вашему желанию */
+    margin: 0 auto;
+    padding: 10px;
+    border: px solid #ff0099; /* Добавьте рамку для эффекта коробки */
+    border-radius: 30px; /* Добавьте скругление углов, если нужно */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Добавьте тень для эффекта поднятия коробки */
+    max-width: 200px;
+  }
+  
+  .birth-info {
+    margin-top: 10px; /* Измените значение по вашему желанию */
+    margin: 0 auto;
+    padding: 10px;
+    border: px solid #ff0099; /* Добавьте рамку для эффекта коробки */
+    border-radius: 30px; /* Добавьте скругление углов, если нужно */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Добавьте тень для эффекта поднятия коробки */
+    max-width: 400px;
+  }
+  .she-loves {
+    margin-top: 15px;
+    margin: 0 auto;
+    padding: 10px;
+    border: px solid #ff0099; /* Добавьте рамку для эффекта коробки */
+    border-radius: 30px; /* Добавьте скругление углов, если нужно */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Добавьте тень для эффекта поднятия коробки */
+    max-width: 200px;
+  }
+  #girlfriend-info {
+    background-color: #000000ab;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #ff0099; /* Добавьте рамку для эффекта коробки */
+    border-radius: 30px; /* Добавьте скругление углов, если нужно */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Добавьте тень для эффекта поднятия коробки */
+  }
+  .name {
+    font-size: 30px;
+    font-weight: bold;
+    color: #e3e3e3; /* Синий цвет, можно изменить на любой другой */
+    letter-spacing: 4px;
+    font-style: italic;
+  }
+  .box-link_photo{
+    margin: auto;
+  }
+  .link_photo {
+    display: inline-block;
+    background-color: rgb(244, 244, 53);
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    width: 150px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    margin-top: 30px;
+    font-size: 20px;
+    border-radius: 25pc;
+    
+
+  }
+  .welcome{
+    transform: scale(1.3);
+  }
+  .button-box{
+    transform: scale(1.);
+  }
+  .link_photo:hover {
+    background-color: #3498db; /* Измените цвет, как вам нужно */
+    color: #fff; /* Измените цвет текста при наведении, как вам нужно */
+  }
+  .button-photo {
+    margin: auto;
+    background-color: #000000ab;
+    max-width: 50%;
+    padding: 30px;
+    border: 2px solid #fff200; /* Добавьте рамку для эффекта коробки */
+    border-radius: 30px; /* Добавьте скругление углов, если нужно */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Добавьте тень для эффекта поднятия коробки */
+  }
+  .highlight-button {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffc800; /* Синий цвет, можно изменить на любой другой */
+    letter-spacing: 1px; /* Расстояние между буквами */
+    
+  }
+  .highlight-button-info{
+    font-size: 44px;
+    font-weight: bold;
+    color: #ffc800; /* Синий цвет, можно изменить на любой другой */
+    letter-spacing: 1px; /* Расстояние между буквами */
+  }
+  .photos img {
+    /* margin: auto; */
+    /* display: flex; */
+    width: 30px;
+    background-color: #000000;
+    max-width: 800px;
+    padding: 0px;
+    border: 2px solid #fff200; /* Добавьте рамку для эффекта коробки */
+    border-radius: 30px; /* Добавьте скругление углов, если нужно */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Добавьте тень для эффекта поднятия коробки */
+  }
+  #girlfriend-photos {
+    background-color: #000000;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #fff200; /* Добавьте рамку для эффекта коробки */
+    border-radius: 30px; /* Добавьте скругление углов, если нужно */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Добавьте тень для эффекта поднятия коробки */
+  }
+
+  .photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .photos img {
+    width: 40%;
+    margin: 20px;
+  }
+  .enter-text {
+    
+    background-color: #f6ff00ac;
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 2px solid #6e7254; /* Добавьте рамку для эффекта коробки */
+    border-radius: 30px; /* Добавьте скругление углов, если нужно */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Добавьте тень для эффекта поднятия коробки */
+    margin: px;
+    
+  }
+  .enter-text2 {
+    background-color: #000000;
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 2px solid #fff20000; /* Добавьте рамку для эффекта коробки */
+    border-radius: 30px; /* Добавьте скругление углов, если нужно */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Добавьте тень для эффекта поднятия коробки */
+    margin: px;
+  }
+  .own {
+    margin: 20px;
+  }
+  .infa-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .infa {
+    background-color: #000000a0;
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 2px solid #fff20000; /* Добавьте рамку для эффекта коробки */
+    border-radius: 30px; /* Добавьте скругление углов, если нужно */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Добавьте тень для эффекта поднятия коробки */
+    margin-bottom: 50px;
+  }
+  .button-box {
+    margin: 35px;
+  }
+  .top-bar2 {
+    text-align: center;
+  }
+
+  .top-bar2 img {
+    max-width: 100px; /* Установите максимальную ширину изображения по вашему выбору */
+    margin: auto;}
+  .insta {
+    background-color: #00000063;
+    max-width: 15%;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid #fff20000; /* Добавьте рамку для эффекта коробки */
+    border-radius: 30px; /* Добавьте скругление углов, если нужно */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Добавьте тень для эффекта поднятия коробки */
+  }
+  ul {
+    list-style-type: circle; /* Задает стиль маркера (в данном случае, точки) */
+    padding-left: 20px; /* Добавляет отступ слева для списка */
+    color: #3498db;
+  }
+  .date-text {
+    color:#3498db ;
+    font-size: 180%;
+    font-weight: bold;
+  }
